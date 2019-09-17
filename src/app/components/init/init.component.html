@@ -1,0 +1,9 @@
+<h1>AGM Init Map</h1>
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<agm-map [latitude]="lat" [longitude]="lng" minZoom="0" maxZoom="20" [fullscreenControl]="false" [streetViewControl]="false" [zoomControl]="false">
+	<agm-marker [latitude]="lat" [longitude]="lng" [animation]="'DROP'" [iconUrl]="iconUrl">
+		<agm-info-window>Hello World</agm-info-window>
+	</agm-marker>
+</agm-map>
