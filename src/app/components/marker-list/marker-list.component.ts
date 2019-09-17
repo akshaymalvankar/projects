@@ -31,21 +31,39 @@ export class MarkerListComponent implements OnInit {
   
   markers: marker[] = [
 	  {
-		  lat: 51.673858,
-		  lng: 5.954793,
+		  lat: 18.955113,
+		  lng: 72.814246,
 		  label: 'A',
 		  draggable: true
 	  },
 	  {
-		  lat: 51.373858,
-		  lng: 7.215982,
+		  lat: 18.954793,
+		  lng: 72.814246,
 		  label: 'B',
 		  draggable: false
 	  },
 	  {
-		  lat: 51.723858,
-		  lng: 7.895982,
+		  lat: 18.954204,
+		  lng: 72.815055,
 		  label: 'C',
+		  draggable: true
+	  },
+      {
+		  lat: 18.95314,
+		  lng: 72.815982,
+		  label: 'D',
+		  draggable: true
+	  },
+      {
+		  lat: 18.9520914,
+		  lng: 72.815055,
+		  label: 'E',
+		  draggable: true
+	  },
+      {
+		  lat: 18.950728,
+		  lng: 72.818209,
+		  label: 'F',
 		  draggable: true
 	  }
   ]
